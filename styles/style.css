@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(34, 34, 34);
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 300px;
+}
+
+li {
+    display: inline-block;
+    margin: 20px;
+}
+
+a {
+    color: #FFF;
+    text-decoration: none;
+    font-size: large;
+    font-weight: 700;
+}
+
+a:hover {
+    color: rgb(132, 14, 201);
+    transition: 0.3s all;
+    cursor: pointer;
+}
+
+#botao-inscreva-se {
+    border: 2px solid rgb(132, 14, 201);
+    padding: 10px;
+    border-radius: 17px;
+}
+
+#botao-inscreva-se:hover {
+    background-color: rgb(132, 14, 201);
+    color: #FFF;
+}
+
+#title {
+    flex-direction: column;
+    line-height: 10px;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 47px;
+}
+
+span {
+    color: rgb(132, 14, 201);
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: larger;
+    font-weight: 300;
+    text-indent: 7px;
+    line-height: 20px;
+    max-width: 500px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+img {
+    width: 600px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: auto;;
+}
+
+form [type="submit"] {
+    background-color: rgb(132, 14, 201);
+    color: #FFF;
+    font-weight: bold;
+    height: 50px;
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+form [type="submit"]:hover {
+    background-color: #FFF;
+    color: rgb(132, 14, 201);
+    cursor: pointer;
+}
+
+input {
+    margin-top: 20px;
+    height: 20px;
+    padding: 20px;
+    border-radius: 17px;
+    border: none;
+    font-size: 17px;
+}
